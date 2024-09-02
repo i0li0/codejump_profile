@@ -123,3 +123,38 @@ li {
   padding: 10px 0;
   text-align: center;
 }
+
+/* sp */
+
+@media screen and (max-width: 600px) {
+
+
+  /* mainvisual */
+  #mainvisual img {
+    height: calc(100vh - 60vh);
+  }
+
+  /* about */
+  #about .content {
+    flex-direction: column;
+  }
+
+  #about img {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  #about .text {
+    width: 100%;
+  }
+
+  /* bicycle */
+  #bicycle ul {
+    flex-direction: column;
+  }
+
+  #bicycle li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
